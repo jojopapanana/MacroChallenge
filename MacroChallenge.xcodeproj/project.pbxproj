@@ -29,11 +29,6 @@
 			path = MacroChallenge;
 			sourceTree = "<group>";
 		};
-		8F6C35142CAC069200E05ECF /* Font */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Font;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +47,6 @@
 			children = (
 				5BF1B5092CABDE3200121EF4 /* MacroChallenge */,
 				5BF1B5082CABDE3200121EF4 /* Products */,
-				8F6C35142CAC069200E05ECF /* Font */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,7 +75,6 @@
 			);
 			fileSystemSynchronizedGroups = (
 				5BF1B5092CABDE3200121EF4 /* MacroChallenge */,
-				8F6C35142CAC069200E05ECF /* Font */,
 			);
 			name = MacroChallenge;
 			packageProductDependencies = (

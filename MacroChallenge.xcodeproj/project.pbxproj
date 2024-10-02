@@ -46,8 +46,15 @@
 			isa = PBXGroup;
 			children = (
 				5BF1B5092CABDE3200121EF4 /* MacroChallenge */,
-				C89A87DD2CAC0D6B005316E5 /* MacroChallenge.app */,
+				5BF1B5082CABDE3200121EF4 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		5BF1B5082CABDE3200121EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1B5072CABDE3200121EF4 /* MacroChallenge.app */,
+			); 
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

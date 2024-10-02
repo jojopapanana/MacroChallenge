@@ -13,7 +13,8 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("PLease please please")
+            Text("Hi Dunia Gembiralah!")
+                .font(.custom("Montserrat-SemiBold", size: 16))
         }
         .padding()
     }

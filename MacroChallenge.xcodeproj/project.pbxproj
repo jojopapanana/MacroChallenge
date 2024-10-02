@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		5BF1B5072CABDE3200121EF4 /* MacroChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacroChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C89A87DD2CAC0D6B005316E5 /* MacroChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacroChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -54,8 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				5BF1B5072CABDE3200121EF4 /* MacroChallenge.app */,
-			);
-			name = Products;
+			); 
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,7 +79,7 @@
 			packageProductDependencies = (
 			);
 			productName = MacroChallenge;
-			productReference = 5BF1B5072CABDE3200121EF4 /* MacroChallenge.app */;
+			productReference = C89A87DD2CAC0D6B005316E5 /* MacroChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +107,7 @@
 			mainGroup = 5BF1B4FE2CABDE3200121EF4;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5BF1B5082CABDE3200121EF4 /* Products */;
+			productRefGroup = 5BF1B4FE2CABDE3200121EF4;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

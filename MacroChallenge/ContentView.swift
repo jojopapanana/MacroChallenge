@@ -15,6 +15,7 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Hi Dunia Gembiralah!")
                 .font(.custom("Montserrat-SemiBold", size: 16))
+            Text("ini branch jovanna")
         }
         .padding()
     }

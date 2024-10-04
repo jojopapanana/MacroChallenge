@@ -28,8 +28,17 @@ struct UploadPictureView: View {
                 .padding(.bottom, 15)
             
             HStack {
-                Rectangle()
-                    .frame(width: 66, height: 88)
+                PhotoCard()
+                VStack {
+                    HStack {
+                        PhotoCard(width: 79.6)
+                        PhotoCard(width: 79.6)
+                    }
+                    HStack {
+                        PhotoCard(width: 79.6)
+                        PhotoCard(width: 79.6)
+                    }
+                }
                 
             }
             .padding(.horizontal)

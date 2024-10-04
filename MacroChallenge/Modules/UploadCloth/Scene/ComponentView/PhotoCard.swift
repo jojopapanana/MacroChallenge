@@ -47,12 +47,12 @@ struct PhotoCard: View {
                     }
                 } label: {
                     ZStack {
-                        RoundedRectangle(cornerRadius: 1.78)
+                        RoundedRectangle(cornerRadius: 2.13)
                             .foregroundColor(.clear)
                             .overlay(
-                                RoundedRectangle(cornerRadius: 1.78)
-                                    .inset(by: 0.35)
-                                    .stroke(.black, style: StrokeStyle(lineWidth: 0.35, dash: [3.54, 1.77]))
+                                RoundedRectangle(cornerRadius: 2.13)
+                                    .inset(by: 0.43)
+                                    .stroke(.black, style: StrokeStyle(lineWidth: 0.43, dash: [4.25, 2.13]))
                             )
                         Image(systemName: "plus.circle.fill")
                             .font(.system(size: 32))
@@ -62,9 +62,12 @@ struct PhotoCard: View {
             }
         }
         .frame(width: width, height: (width/3)*4)
-        .clipped()
-        .shadow(color: .black.opacity(displayCloth == nil ? 0 : 0.25), radius: 0.41, x: 0.41, y: 0.41)
-        .shadow(color: .black.opacity(displayCloth == nil ? 0 : 0.25), radius: 0.41, x: -0.41, y: -0.41)
+        .clipShape(RoundedRectangle(cornerRadius: 5))
+        .overlay(
+            RoundedRectangle(cornerRadius: 5)
+                .inset(by: 1)
+                .stroke(.black, lineWidth: displayCloth == nil ? 0 : 1)
+        )
         .photosPicker(
             isPresented: $galleryUpload,
             selection: $chosenPhoto,

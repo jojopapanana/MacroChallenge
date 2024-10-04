@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		C8E0ACBB2CAD2F8500D9444E /* MacroChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MacroChallenge.app; path = "/Users/stevanscalvincandra/Documents/XCode/MacroChallenge/build/Debug-iphoneos/MacroChallenge.app"; sourceTree = "<absolute>"; };
+		C8E0AE7D2CADC85900D9444E /* MacroChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacroChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -46,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				5BF1B5092CABDE3200121EF4 /* MacroChallenge */,
+				C8E0AE7D2CADC85900D9444E /* MacroChallenge.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +72,7 @@
 			packageProductDependencies = (
 			);
 			productName = MacroChallenge;
-			productReference = C8E0ACBB2CAD2F8500D9444E /* MacroChallenge.app */;
+			productReference = C8E0AE7D2CADC85900D9444E /* MacroChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

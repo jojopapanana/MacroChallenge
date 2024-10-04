@@ -23,6 +23,7 @@ struct PhotoCard: View {
                     Image(uiImage: displayCloth!)
                         .resizable()
                         .scaledToFill()
+                        .clipShape(RoundedRectangle(cornerRadius: 5))
                     
                     Image(systemName: "trash.circle.fill")
                         .font(.system(size: 32))
@@ -56,7 +57,8 @@ struct PhotoCard: View {
                             )
                         Image(systemName: "plus.circle.fill")
                             .font(.system(size: 32))
-                            .foregroundStyle(.black)
+                            .symbolRenderingMode(.palette)
+                            .foregroundStyle(.white, .black)
                     }
                 }
             }

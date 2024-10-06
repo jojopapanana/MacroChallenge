@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		C89A87DD2CAC0D6B005316E5 /* MacroChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacroChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1CC3F62CAE7443004FF79F /* MacroChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacroChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8F6C353A2CAC06EE00E05ECF /* Exceptions for "MacroChallenge" folder in "MacroChallenge" target */ = {
+		5BD76B2C2CAFD522001F43DF /* Exceptions for "MacroChallenge" folder in "MacroChallenge" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				"Font/Montserrat/Montserrat-Black.ttf",
+				"Font/Montserrat/Montserrat-BlackItalic.ttf",
+				"Font/Montserrat/Montserrat-Bold.ttf",
+				"Font/Montserrat/Montserrat-BoldItalic.ttf",
+				"Font/Montserrat/Montserrat-ExtraBold.ttf",
+				"Font/Montserrat/Montserrat-ExtraBoldItalic.ttf",
+				"Font/Montserrat/Montserrat-ExtraLight.ttf",
+				"Font/Montserrat/Montserrat-ExtraLightItalic.ttf",
+				"Font/Montserrat/Montserrat-Italic.ttf",
+				"Font/Montserrat/Montserrat-Light.ttf",
+				"Font/Montserrat/Montserrat-LightItalic.ttf",
+				"Font/Montserrat/Montserrat-Medium.ttf",
+				"Font/Montserrat/Montserrat-MediumItalic.ttf",
+				"Font/Montserrat/Montserrat-Regular.ttf",
+				"Font/Montserrat/Montserrat-SemiBold.ttf",
+				"Font/Montserrat/Montserrat-SemiBoldItalic.ttf",
+				"Font/Montserrat/Montserrat-Thin.ttf",
+				"Font/Montserrat/Montserrat-ThinItalic.ttf",
 				Info.plist,
 			);
 			target = 5BF1B5062CABDE3200121EF4 /* MacroChallenge */;
@@ -24,7 +42,7 @@
 		5BF1B5092CABDE3200121EF4 /* MacroChallenge */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				8F6C353A2CAC06EE00E05ECF /* Exceptions for "MacroChallenge" folder in "MacroChallenge" target */,
+				5BD76B2C2CAFD522001F43DF /* Exceptions for "MacroChallenge" folder in "MacroChallenge" target */,
 			);
 			path = MacroChallenge;
 			sourceTree = "<group>";
@@ -46,15 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				5BF1B5092CABDE3200121EF4 /* MacroChallenge */,
-				5BF1B5082CABDE3200121EF4 /* Products */,
+				5B1CC3F62CAE7443004FF79F /* MacroChallenge.app */,
 			);
-			sourceTree = "<group>";
-		};
-		5BF1B5082CABDE3200121EF4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5BF1B5072CABDE3200121EF4 /* MacroChallenge.app */,
-			); 
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,7 +90,7 @@
 			packageProductDependencies = (
 			);
 			productName = MacroChallenge;
-			productReference = C89A87DD2CAC0D6B005316E5 /* MacroChallenge.app */;
+			productReference = 5B1CC3F62CAE7443004FF79F /* MacroChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -264,7 +275,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MacroChallenge/Preview Content\"";
-				DEVELOPMENT_TEAM = 2PK9G249Q5;
+				DEVELOPMENT_TEAM = 7STQ7T3976;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MacroChallenge/Info.plist;
@@ -282,7 +293,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -294,7 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MacroChallenge/Preview Content\"";
-				DEVELOPMENT_TEAM = 2PK9G249Q5;
+				DEVELOPMENT_TEAM = 7STQ7T3976;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MacroChallenge/Info.plist;
@@ -312,7 +323,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

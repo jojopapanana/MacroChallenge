@@ -6,18 +6,18 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
+    private let context = SwiftDataContextManager.shared.context
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hi Dunia Gembiralah!")
-                .font(.custom("Montserrat-SemiBold", size: 16))
-            Text("ini branch jovanna")
+        if let context{
+            UploadClothView()
+                .environment(\.modelContext, context)
+        } else {
+            Text("failed")
         }
-        .padding()
     }
 }
 

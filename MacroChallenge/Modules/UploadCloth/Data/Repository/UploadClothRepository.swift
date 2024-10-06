@@ -1,4 +1,4 @@
-// 
+//
 //  UploadClothRepository.swift
 //  MacroChallenge
 //
@@ -7,19 +7,28 @@
 
 import Foundation
 import Combine
+import SwiftData
 
-protocol UploadClothRepository {
-    func fetch() -> AnyPublisher<UploadClothModel, Error>
-}
-
-internal final class DefaultUploadClothRepository: UploadClothRepository {
+class UploadClothRepository {
+    
+    private let container = SwiftDataContextManager.shared.container
     
     init() { }
     
-    func fetch() -> AnyPublisher<UploadClothModel, Error> {
-        return Future<UploadClothModel, Error> { promise in
-            promise(.success(.init()))
+    func save(param: UploadClothRequestDTO) -> Task<Bool, Never>{
+        Task { @MainActor in
+            do {
+                let entity = ClothesLocalEntity(images: param.images, clothesType: param.clothesType, clothesQty: param.clothesQty, additionalNotes: param.additionalNotes ?? "")
+                
+                self.container!.mainContext.insert(entity)
+                
+                try self.container!.mainContext.save()
+                
+                return true
+            } catch {
+                return false
+            }
         }
-        .eraseToAnyPublisher()
+            
     }
 }
